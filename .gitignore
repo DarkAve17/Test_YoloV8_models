@@ -1,0 +1,19 @@
+# Virtual Environment
+venv/
+/venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# IDE folders
+.vscode/
+.idea/
+
+# Ignore the contents of these folders...
+Model/*
+Test_Video/*
+
+# ...but DO NOT ignore the .gitkeep placeholder file.
+!Model/.gitkeep
+!Test_Video/.gitkeep
